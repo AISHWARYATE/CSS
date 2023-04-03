@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1{
+        fontsize:20px;
+        text-align:center;
+        border-bottom:2px solid cornsilk;
+    }
+    .container{
+        /* background-color:skyblue ; */
+        background: linear-gradient(to bottom, red 0%,yellow 30%);
+        width:1000px ;
+        height:1000px;
+        margin-left: 90px;
+        margin-right: 200px;
+
+    }
+    #button{
+        background-color:green;
+        size: 20px;
+    }
+    
+    </style>
+</head>
+<body bgcolor="pink">
+    
+    <div class="container">
+        <h1>Student Regestration Form</h1>
+        <form>
+            <label for="first name">First Name</label><br><br>
+            <input type="text" size="130px" value="first name"><br><br>
+            <label for="middle name">Middle Name</label><br><br>
+            <input type="text" size="130px"value="middle name"><br><br>
+            <label for="last name">Last Name</label><br><br>
+            <input type="text" size="130px" value="last name"><br><br>
+            <select>
+                <option value="course">course</option>
+                <option value="physics">pysics</option>
+                <option value="maths"></option>
+            </select><br><br>
+            <label for="">Gender</label><br><br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other<br><br>
+            <label for="">Phone:</label><br><br>
+            <input typye="phone" value="+91" size="130px"><br><br>
+            <input type="phone" value="phone no" size="130px"><br><br>
+            <label for="">Current Address:</label><br><br>
+            <textarea rows="10px" cols="30px"></textarea><br><br>
+            <label for="">email</label><br><br>
+            <input typye="text" value="enter email" size="130px"><br><br>
+            <label for="">password</label><br><br>
+            <input type="text" value="enter password" size="130px"><br><br>
+            <label for="">password</label><br><br>
+            <input type="text" value="retype password" size="130px"><br><br>
+            <input type="submit" value="Register" id="button" size="130px">
+
+        </form>
+
+    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+       
+        
+    }
+    .container{
+        background: linear-gradient(to bottom, blue 0%,violet 35%);
+        width:1000px ;
+        height:1000px;
+        margin-left: 90px;
+        margin-right: 200px;
+        border-style:dotted;
+        input{
+        width:50%;
+        padding: 12px 20px;
+        margin: 9px 0;
+        box-sizing: border-box;
+        
+    }
+
+
+</style>
+
+<body bgcolor="white">
+    <h1><u>Student Registration Form Using Table in HTML</u></h1>
+    <div class="container">
+            <form action="">
+            <table>
+            <tr><td><label for="">First Name</label></td><td><input type="text" value="First Name" maxlength="50"></td></tr>
+            <tr><td><label for="">Last Name</label></td><td><input type="text" value="Last Name" maxlength="50"></td></tr>
+            <tr><td><label for="">email </label></td><td><input type="email" value="email "maxlength="50"></td></tr>
+            <tr><td><label for="">phone </label></td><td><input type="tel" pattern="[0-9]"></td></tr>
+            <tr><td><label for="">Gender</label><input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female<br><br></td></tr>
+            <tr><td><label for="">Date of birth(DOB)</label></td><td></label><input type="date"></td></tr>
+            <tr><td><label for="">Address</label></td></label><td><textarea cols="30" rows="10"></textarea></td></tr>
+            <tr><td><label for="">City</label></td><td><input type="text" value="" maxlength="50"></td></tr>
+            <tr><td><label for="">Pin code</label></td><td><input type="text" value="" maxlength="50"></td></tr>
+            <tr><td><label for="">state</td></label><td><input type="text" value="" maxlength="50"></td></tr>
+            <tr><td><label for="">Country</label></tdl><td><input type="text" value="" maxlength="50"></td></tr>
+            <tr><td>Hobbies</td><td><input type="checkbox" value="Drawing">Drawing
+            <input type="checkbox" value="singing">singing<input type="checkbox" value="dancing">dancing
+            <input type="checkbox" value="sketching">skteching<br>
+            <input type="checkbox" value="others">others</td></tr>
+            <tr><td>Qulification</td><td><input type="checkbox" value="High school"(10th)>High school(10th)<br><br>
+            <input type="checkbox" value="Higher school(12th)">Higher school(12th)<br><br>
+            <input type="checkbox" value="Graduationn(bachelors)">Graduationn(bachelors)<br><br>
+            <input type="checkbox" value="Post Graduationn(Masters)">Post Graduationn(Masters)<br><br>
+            <input type="checkbox" value="phd">phd
+            </td></tr>
+            <tr><td>Courses<br>Applied For</td><td><input type="checkbox" value="BCA(Bachelor of computer Application)">BCA(Bachelor of computer Application)<br><br>
+             <input type="checkbox" value="B.com(Bachelor of commerce)">B.com(Bachelor of commerce)<br><br>
+             <input type="checkbox" value="B.sc(Bachelor of science)">B.sc(Bachelor of science)<br><br>
+             <input type="checkbox" value="BA(Bachelor of Arts)">BA(Bachelor of Arts)<br><br>
+             <input type="checkbox" value="MCA(Master of computer application)">MCA(Master of computer application)<br><br>
+             <input type="checkbox" value="M.Sc(Master of Science)">M.Sc(Master of Science)<br><br>
+             <input type="checkbox" value="MA(Master of arts)">MA(Master of arts)             
+            </td></tr><tr><td></td></tr>
+            <tr><td></td><td><input type="button" value="submit">&nbsp;&nbsp;&nbsp;<input type="button" value="reset"></td></tr>
+            </form>
+         </table>
+        
+        
+    </div>
+    
+</body>
+</html>
